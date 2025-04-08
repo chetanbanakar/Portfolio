@@ -1,35 +1,72 @@
 
 import React from 'react';
+import { 
+  Code, 
+  Database, 
+  BookOpen, 
+  Library, 
+  BarChart3, 
+  Android 
+} from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
     {
-      category: "Mobile Development",
-      skills: ["Android Development", "Android SDK", "Java", "MVP/MVVM Architecture", "React Native", "Mobile UI/UX", "App Optimization"]
+      category: "Programming Language",
+      icon: <Code className="h-5 w-5" />,
+      skills: ["Java", "J2EE"]
     },
     {
-      category: "Programming Languages",
-      skills: ["Java", "JavaScript", "TypeScript", "HTML", "CSS"]
+      category: "Android",
+      icon: <Android className="h-5 w-5" />,
+      skills: [
+        "Android Design", 
+        "Android SDK", 
+        "Android Architecture Components", 
+        "MVP & MVVM Design patterns",
+        "Navigation Framework", 
+        "View components", 
+        "App Modularisation",
+        "Third-party service integration", 
+        "App memory management", 
+        "User Interface Design"
+      ]
     },
     {
-      category: "Development Tools",
-      skills: ["Android Studio", "Gradle", "SVN", "Git", "Postman", "JIRA", "Confluence"]
+      category: "Database",
+      icon: <Database className="h-5 w-5" />,
+      skills: ["SQL: Room - SQLite", "PostgreSQL", "NoSQL: Couch", "Couchbase"]
     },
     {
-      category: "API & Backend",
-      skills: ["REST APIs", "GraphQL", "BAPIs", "RFCs", "IDocs", "OData Services"]
+      category: "APIs",
+      icon: <BookOpen className="h-5 w-5" />,
+      skills: ["REST APIs", "GraphQL"]
     },
     {
-      category: "Database & Design",
-      skills: ["SQL", "Architecture Patterns", "Clean Code", "Data Visualization"]
+      category: "Libraries and Tools",
+      icon: <Library className="h-5 w-5" />,
+      skills: [
+        "Android Studio", 
+        "Gradle", 
+        "XML", 
+        "YML", 
+        "OkHttp", 
+        "WebSockets", 
+        "CI/CD Pipeline", 
+        "RxAndroid", 
+        "RxJava",
+        "Dagger Hilt", 
+        "Rx Event Bus", 
+        "JSON", 
+        "Docker", 
+        "Version Control (SVN)",
+        "Postman"
+      ]
     },
     {
-      category: "SAP Technologies",
-      skills: ["SAP PM", "SAP Reports", "ALV Grids", "Smart Forms", "SAP Fiori", "CDS Views"]
-    },
-    {
-      category: "Project Management",
-      skills: ["Agile Methodologies", "Cross-functional Leadership", "Project Delivery", "Performance Optimization"]
+      category: "Data Visualisation",
+      icon: <BarChart3 className="h-5 w-5" />,
+      skills: ["MPAndroidChart", "Metabase", "DataBinding"]
     }
   ];
 
@@ -46,7 +83,12 @@ const Skills = () => {
                 className="bg-white p-6 rounded-lg shadow-md animate-fade-in opacity-0"
                 style={{ animationDelay: `${0.1 * index}s`, animationFillMode: 'forwards' }}
               >
-                <h3 className="text-lg font-bold text-portfolio-navy mb-4">{category.category}</h3>
+                <div className="flex items-center mb-4">
+                  <span className="text-portfolio-blue mr-2">
+                    {category.icon}
+                  </span>
+                  <h3 className="text-lg font-bold text-portfolio-navy">{category.category}</h3>
+                </div>
                 <div className="flex flex-wrap gap-2">
                   {category.skills.map((skill, skillIndex) => (
                     <span 
