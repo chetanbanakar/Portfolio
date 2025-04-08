@@ -6,7 +6,7 @@ import {
   BookOpen, 
   Library, 
   BarChart3, 
-  Android 
+  Smartphone 
 } from 'lucide-react';
 
 const Skills = () => {
@@ -18,7 +18,7 @@ const Skills = () => {
     },
     {
       category: "Android",
-      icon: <Android className="h-5 w-5" />,
+      icon: <Smartphone className="h-5 w-5" />,
       skills: [
         "Android Design", 
         "Android SDK", 
