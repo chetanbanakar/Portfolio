@@ -30,23 +30,24 @@ const Experience = () => {
               </ul>
             </div>
             
-            {/* SAP Developer */}
+            {/* Java Developer */}
             <div className="experience-item">
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
-                <h3 className="text-xl font-bold text-portfolio-navy">SAP Developer</h3>
-                <div className="text-portfolio-blue font-medium">March 2021 - February 2022 (1 year)</div>
+                <h3 className="text-xl font-bold text-portfolio-navy">Java Developer</h3>
+                <div className="text-portfolio-blue font-medium">March 2021 - February 2023 (2 years)</div>
               </div>
               <p className="text-gray-700 mb-2">Bengaluru, Karnataka, India</p>
               
               <ul className="bullet-list text-gray-700 mt-4">
-                <li>Boosted operational efficiency by 30% via optimized SAP PM Work Order & Preventive Maintenance processes.</li>
-                <li>Developed custom SAP reports, ALV grids, & Smart Forms for streamlined maintenance workflows.</li>
-                <li>Integrated SAP PM with external systems using BAPIs, RFCs, and IDocs for seamless data exchange.</li>
-                <li>Enhanced user experience with SAP Fiori, CDS Views, and OData services.</li>
-                <li>Implemented and upgraded SAP PM solutions, improving asset reliability & maintenance planning.</li>
-                <li>Created user-friendly enhancements using User Exits, BADIs, and Enhancement Frameworks.</li>
-                <li>Collaborated in Agile environments for smooth SAP module integrations.</li>
-                <li>Streamlined asset management & maintenance processes through SAP PM solution optimisation.</li>
+                <li>Developed core functionalities for enterprise-grade applications using Java technologies including Multithreading, Collections, and JDBC.</li>
+                <li>Proficient in the Spring ecosystem, including Spring MVC and Spring Boot, for building scalable backend solutions.</li>
+                <li>Designed and implemented robust RESTful APIs, facilitating seamless integration with internal modules and third-party systems.</li>
+                <li>Applied OpenAPI specifications to standardize and document API contracts effectively.</li>
+                <li>Led the architecture and development of critical microservices using Spring Boot, contributing to enhanced scalability, maintainability, and system performance.</li>
+                <li>Integrated services within CI/CD pipelines to support continuous deployment and quality assurance.</li>
+                <li>Increased data processing efficiency by 20% through optimized Java code and multithreaded operations.</li>
+                <li>Reduced production bugs by 30% through implementation of automated testing and proactive code reviews.</li>
+                <li>Improved overall system performance by 25% by identifying and resolving performance bottlenecks.</li>
               </ul>
             </div>
             
