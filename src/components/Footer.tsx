@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <p>&copy; {currentYear} Chetan Banakar. All Rights Reserved.</p>
-          <p className="mt-2 text-gray-400 text-sm">Lead Android Developer & Mobile Application Expert</p>
+          <p className="mt-2 text-gray-400 text-sm">Software Engineer & Mobile Application Expert</p>
         </div>
       </div>
     </footer>
