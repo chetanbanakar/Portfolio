@@ -11,7 +11,7 @@ const Hero = () => {
             CHETAN BANAKAR
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-200 animate-fade-in opacity-0" style={{ animationDelay: '0.3s', animationFillMode: 'forwards' }}>
-            Lead Android Developer | Expert in Java, MVP/MVVM Architecture, and API Integration | Skilled in Clean Code and High-Impact Mobile Solutions
+            Software Engineer |Java, Android, MVC/MVVM Architecture, Spring Framework, Micro Services and API Integration | Skilled in Clean Code and High-Impact Mobile Solutions
           </p>
           <p className="text-lg text-gray-300 mb-10 animate-fade-in opacity-0" style={{ animationDelay: '0.5s', animationFillMode: 'forwards' }}>
             Bengaluru, Karnataka, India
