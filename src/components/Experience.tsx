@@ -13,7 +13,7 @@ const Experience = () => {
             <div className="experience-item">
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
                 <h3 className="text-xl font-bold text-portfolio-navy">Lead Android Engineer</h3>
-                <div className="text-portfolio-blue font-medium">March 2022 - Present (3 years 2 months)</div>
+                <div className="text-portfolio-blue font-medium">Mar 2023 - Present · 2 yrs 5 mos</div>
               </div>
               <p className="text-gray-700 mb-2">Saartha Labs Pvt Ltd - Bengaluru</p>
               
